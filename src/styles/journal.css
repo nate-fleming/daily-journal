@@ -1,0 +1,51 @@
+html { 
+    background: url(../img/coding-6.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    margin-top: 2em;
+    text-align: center;
+    color: rgb(219, 218, 208);
+    text-shadow: 2px 2px #2e240e;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.transparent {
+    background-color: rgba(219, 218, 208, .70);
+    border-radius: 10px;
+    box-shadow: 2px 2px #2e240e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 20%;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none
+}
+
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.submitBtn {
+    margin: 4em;
+    align-self: center;
+    box-shadow: 2px 2px #2e240e;
+}
+
+
