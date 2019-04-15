@@ -1,5 +1,7 @@
 
-const journalEntries = []
+const journalEntries = [
+    
+]
 
 const objectJournalEntry = {
     date: '',
