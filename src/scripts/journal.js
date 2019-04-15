@@ -1,6 +1,7 @@
 const entryList = document.querySelector('.entryLog')
 
 
+
 const journalEntries = [
     {
         date: '07/24/2018',
@@ -10,28 +11,22 @@ const journalEntries = [
     }
 ]
 
-const createEntry = (journalEntry) => {
-    console.log(journalEntry)
-    return `
-    <h2>${journalEntry.title}</h1>
-    <h3>${journalEntry.date}</h2>
-    <p>${journalEntry.content}</p>
-    <p>Mood: ${journalEntry.mood}</p>
-    `
-}
+
+journalEntries.forEach(entry => {
+    const h2 = document.createElement('h2')
+    const h3 = document.createElement('h2')
+    const p = document.createElement('p')
+    const p2 = document.createElement('p')
+    
+    h2.textContent = entry.title
+    h3.textContent = entry.date
+    p.textContent = entry.content
+    p2.textContent = `Mood: ${entry.mood}`
+
+    entryList.appendChild(h2)
+    entryList.appendChild(h3)
+    entryList.appendChild(p)
+    entryList.appendChild(p2)
+})
 
 
-const renderJournalEntries = (entries) => {
-    entries.forEach(entry => {
-        item = createEntry(entry)
-        entryList.innerHTML += item
-    })
-}
-
-
-renderJournalEntries(journalEntries)
-// const addEntry = () => journalEntries.push();
-
-// addEntry();
-
-// console.log(journalEntries);
