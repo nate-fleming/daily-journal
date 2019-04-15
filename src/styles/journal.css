@@ -26,7 +26,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    margin: 10% 20%;
+    margin: 2% 20%;
 }
 
 fieldset{
@@ -46,6 +46,13 @@ fieldset{
     margin: 4em;
     align-self: center;
     box-shadow: 2px 2px #2e240e;
+}
+
+.entryLog {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 2em;
+    padding: 1em
 }
 
 
