@@ -51,8 +51,17 @@ fieldset{
 .entryLog {
     display: flex;
     flex-direction: column;
+}
+
+.journal-entry {
     margin: 1em 2em;
     padding: 1em
 }
+
+.journal-entry h2 {
+    text-align: center
+}
+
+
 
 
