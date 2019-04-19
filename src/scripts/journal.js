@@ -1,7 +1,7 @@
 const entryList = document.querySelector('.entryLog')
 
 
-fetch('http://localhost:3000/entries')
+fetch('http://localhost:8088/entries')
     .then(entries => entries.json())
     .then(journalEntries => {
         journalEntries.forEach(entry => {
@@ -10,18 +10,15 @@ fetch('http://localhost:3000/entries')
             const p = document.createElement('p')
             const p2 = document.createElement('p')
             const div = document.createElement('div')
-            
+
             div.classList = 'journal-entry transparent'
             h2.textContent = entry.title
             h3.textContent = entry.date
             p.textContent = entry.content
             p2.textContent = `Mood: ${entry.mood}`
-        
+
             entryList.appendChild(div)
-            div.appendChild(h2)
-            div.appendChild(h3)
-            div.appendChild(p)
-            div.appendChild(p2)
+            div.append(h2, h3, p, p2)
         })
     })
 
