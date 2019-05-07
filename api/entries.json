@@ -1,16 +1,60 @@
 {
   "entries": [
-        {
-            "date": "07/24/2018",
-            "title": "Array methods",
-            "content": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
-            "mood": "ok"
-        },
-        {
-            "date": "07/24/2018",
-            "title": "Array methods",
-            "content": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
-            "mood": "ok"
-        }
-    ]
+    {
+      "date": "2019-04-30",
+      "title": "test",
+      "content": "does this work?\n",
+      "mood": "Aight",
+      "id": 3
+    },
+    {
+      "date": "2019-04-30",
+      "title": "test",
+      "content": "testing again",
+      "mood": "Happy",
+      "id": 5
+    },
+    {
+      "date": "2019-04-30",
+      "title": "test 2",
+      "content": "this is an entry",
+      "mood": "Aight",
+      "id": 7
+    },
+    {
+      "date": "2019-04-30",
+      "title": "testing",
+      "content": "new text stuff",
+      "mood": "Aight",
+      "id": 8
+    },
+    {
+      "date": "2019-04-30",
+      "title": "testing",
+      "content": "testing.......",
+      "mood": "Aight",
+      "id": 9
+    },
+    {
+      "date": "2019-05-30",
+      "title": "test",
+      "content": "testing",
+      "mood": "Happy",
+      "id": 12
+    },
+    {
+      "date": "2019-05-30",
+      "title": "",
+      "content": "this is a test",
+      "mood": "Happy",
+      "id": 13
+    },
+    {
+      "date": "",
+      "title": "title",
+      "content": "this is a test",
+      "mood": "Happy",
+      "id": 14
+    }
+  ]
 }

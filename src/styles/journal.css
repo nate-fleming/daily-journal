@@ -1,14 +1,35 @@
-html { 
-    background: url(../img/coding-6.jpg) no-repeat center center fixed; 
+html {
+    background: url(../img/coding-6.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+.filtered-searches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.mood-filter {
+    width: 40%;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em
+}
+
+.word-filter {
+    width: 40%;
+    text-align: center;
+    font-size: 2em;
+    padding: 1em
+}
+
 h1 {
+    font-size: 6em;
     margin-top: 2em;
     text-align: center;
-    color: rgb(219, 218, 208);
-    text-shadow: 2px 2px #2e240e;
+    color: rgb(38, 21, 20);
+    text-shadow: 2px 2px grey;
 }
 
 .flexbox-container {
@@ -18,9 +39,18 @@ h1 {
 }
 
 .transparent {
-    background-color: rgba(219, 218, 208, .70);
+    background-color: rgba(148, 138, 111, .90);
     border-radius: 10px;
     box-shadow: 2px 2px #2e240e;
+}
+
+
+
+.radio {
+    border: 0px;
+    width: 100px;
+    height: 2em;
+    margin: -4%
 }
 
 form {
@@ -42,7 +72,10 @@ fieldset{
     height: auto;
 }
 
-.submitBtn {
+#save-btn {
+    font-size: 1em;
+    height: 4em;
+    width: 60%;
     margin: 4em;
     align-self: center;
     box-shadow: 2px 2px #2e240e;
