@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +9,15 @@
     <link rel="stylesheet" href="styles/journal.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
 </head>
-<body>
-    <h1>Daily Journal</h1>
-    <div class="flexbox-container">
-        <form action="">
-            <div class="transparent">
-                <fieldset>
-                    <label for="journalDate">Date of entry</label>
-                    <input type="date" name="journalDate" id="journalDate">
-                </fieldset>
-                <fieldset>
-                    <label for="concepts">Concepts Covered</label>
-                    <input type="text" name="concepts" id="concepts">
-                </fieldset>
-                <fieldset>
-                    <label for="journalEntry">Journal Entry</label>
-                    <textarea name="journalEntry" id="journalEntry" cols="30" rows="4"></textarea>
-                </fieldset>
-                <fieldset>
-                    <label for="mood">Mood for the day</label>
-                    <select name="mood" id="mood">
-                        <option value="Aight">Aight</option>
-                        <option value="Sad">Sad</option>
-                        <option value="Happy">Happy</option>
-                        <option value="Hopeless">Hopeless</option>
-                    </select>
-                </fieldset>
-            </div>
-            <input class="submitBtn" type="submit" value="Record Journal Entry">
-        </form>
-    </div>
-    <div class="flexbox-container">
-        <article class="entryLog">
 
-        </article>
-    </div>
+<body id="body">
+
+
+    <script src="scripts/populate DOM.js"></script>
     <script src="scripts/data.js"></script>
     <script src="scripts/entriesDOM.js"></script>
     <script src="scripts/entryComponent.js"></script>
     <script src="scripts/journal.js"></script>
 </body>
+
 </html>
